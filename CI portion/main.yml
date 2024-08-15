@@ -1,0 +1,10 @@
+name: My Workflow
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: CreateProduct
+        run: print("Create Product")
+      - name: Read Product
+        run: print("Read Product")
