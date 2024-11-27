@@ -6,7 +6,6 @@ from ecommerce.schemas import ProductSchema
 
 product_schema = ProductSchema()
 
-
 # Create Product
 @app.route('/products', methods=['POST'])
 def add_product():
