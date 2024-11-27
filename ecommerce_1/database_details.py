@@ -9,7 +9,6 @@ class DataBaseDetails:
         self.__database = os.environ.get("database")
         self.__password = os.environ.get("db_password")
 
-
     @property
     def get_password(self):
         return self.__password
