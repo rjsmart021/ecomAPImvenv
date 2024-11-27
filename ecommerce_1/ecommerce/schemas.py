@@ -4,7 +4,6 @@ from ecommerce import app
 
 ma = Marshmallow()
 
-
 class CustomerSchema(ma.Schema):
     customer_id = fields.Integer(dump_only=True)
     customer_name = fields.String(required=True)
