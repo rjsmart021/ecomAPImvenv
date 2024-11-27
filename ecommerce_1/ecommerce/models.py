@@ -1,6 +1,5 @@
 from ecommerce import db
 
-
 class Customer(db.Model):
     """
     Customer Relation Model.
