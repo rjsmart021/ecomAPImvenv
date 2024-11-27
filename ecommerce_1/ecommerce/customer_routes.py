@@ -13,7 +13,7 @@ def add_customer():
     """
     Add customer . Example POST data format
     {
-    "customer_name": "abc",
+    "customr_name": "abc",
     "email": "abc@domain.com",
     :phone_number": "7774445556"
     }
